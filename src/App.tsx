@@ -1,12 +1,20 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-     Hello, samurai! Let's go!
-    </div>
-  );
+const App = () => {
+    return (
+        <div>
+            <div>one div</div>
+            <div className={"App"}>
+                <ul>
+                    <li>Css</li>
+                    <li>HTML</li>
+                    <li>JS</li>
+                    <li>React</li>
+                </ul>
+            </div>
+        </div>
+    )
 }
 
 export default App;
