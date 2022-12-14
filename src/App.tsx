@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import Header from './Header';
+import Technoligies from './Technologies';
 
 const App = () => {
     return (
@@ -9,26 +11,6 @@ const App = () => {
         </div>
     )
 }
-const Technoligies = () =>{
-    return (
-        <div>
-            <ul>
-                <li>Css</li>
-                <li>HTML</li>
-                <li>JS</li>
-                <li>React</li>
-            </ul>
-        </div>
-    )
-}
-const Header = () => {
-    return (
-        <div>
-            <a href="#s">Home</a>
-            <a href="#s">News Feed</a>
-            <a href="#s">Messages</a>
-        </div>
-    )
-}
+
 
 export default App;
