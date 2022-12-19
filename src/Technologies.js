@@ -1,6 +1,6 @@
 import React from "react";
 
-const Technoligies = () =>{
+const Technologies = () =>{
     return (
         <div>
             <ul>
@@ -13,4 +13,4 @@ const Technoligies = () =>{
     )
 }
 
-export default Technoligies
+export default Technologies
