@@ -1,6 +1,7 @@
 import React from "react"
 import myPhoto from "../../assets/images/download.jpg";
 import s from "./Profile.module.css"
+import {MyPosts} from "./MyPosts/MyPosts";
 
 export const Profile = () => {
     return (
@@ -12,20 +13,7 @@ export const Profile = () => {
             <div>
                 <img src={myPhoto} alt=""/>
             </div>
-            <div>
-                My posts
-                <div>
-                    New post
-                </div>
-                <div className={s.posts}>
-                    <div className={s.item}>
-                        Posts 1
-                    </div>
-                    <div className={s.item}>
-                        Posts 2
-                    </div>
-                </div>
-            </div>
+            <MyPosts/>
         </div>
     )
 }
